@@ -263,5 +263,5 @@ def delete_server():
     except Exception as e:
         return jsonify({'success': False, 'error': str(e)})
 
-if __name__ == '__main__':
+if __name__ == '__Adeel__':
     app.run(host='0.0.0.0', port=5000, debug=False, threaded=True)
